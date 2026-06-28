@@ -1,0 +1,67 @@
+spring:
+  application:
+    name: notification-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/crisisgrid
+    username: postgres
+    password: Suryasurya#@123
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  kafka:
+    bootstrap-servers: localhost:9092
+
+    consumer:
+      group-id: notification-service-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+
+      properties:
+        spring.json.trusted.packages: "*"
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: suryaamujuri2002@gmail.com
+    password: spiiwifyyhvpshdm
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8084
+
+# Twilio
+twilio:
+  account-sid: AC8beb20dca32e3cc0c09b97b90f7a6a58
+  auth-token: 3c35273b0aedadde69c9f55d914c8594
+  phone-number: 9121782600
+
+# Notification defaults
+notification:
+  email:
+    from: suryaamujuri2002@gmail.com
+    from-name: Crisis Grid Emergency System
+
+  default-admin-emails:
+    - suryaamujuri2002@gmail.com
+
+  default-responder-phones:
+    - "+91XXXXXXXXXX"
+
+logging:
+  level:
+    com.crisisgrid.notificationservice: DEBUG

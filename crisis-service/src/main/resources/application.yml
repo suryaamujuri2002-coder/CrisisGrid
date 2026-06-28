@@ -1,0 +1,100 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: crisis-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/crisisgrid
+    username: postgres
+    password: Suryasurya#@123
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      connection-timeout: 20000
+      idle-timeout: 300000
+      max-lifetime: 1200000
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        use_sql_comments: true
+        jdbc:
+          lob:
+            non_contextual_creation: true
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: ${REDIS_PASSWORD:}
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+          max-wait: -1ms
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: crisis-service-group
+      auto-offset-reset: earliest
+      enable-auto-commit: false
+      producer:
+        acks: all
+        retries: 3
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: "*"
+
+
+jwt:
+  secret-key: ${JWT_SECRET:bXktc3VwZXItc2VjcmV0LWtleS1mb3Itand0LXNpZ25pbmc=}
+  expiration: 86400000
+  refresh-token:
+    expiration: 604800000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: when-authorized
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+
+logging:
+  level:
+    root: INFO
+    com.project.crisis: DEBUG
+    org.springframework.kafka: INFO
+    org.springframework.cache: DEBUG
+    org.springframework.security: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: logs/crisis-service.log
+
+crisis:
+  geo:
+    default-radius-km: 50
+    max-radius-km: 200
+  cache:
+    ttl-minutes: 15

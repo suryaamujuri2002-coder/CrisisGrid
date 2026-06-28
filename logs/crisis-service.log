@@ -1,0 +1,195 @@
+2026-06-27 16:05:27 [main] INFO  c.p.C.c.CrisisServiceApplication - Starting CrisisServiceApplication using Java 24.0.1 with PID 14760 (C:\Users\HP\OneDrive\Documents\CrisisGrid\crisis-service\target\classes started by HP in C:\Users\HP\OneDrive\Documents\CrisisGrid)
+2026-06-27 16:05:27 [main] INFO  c.p.C.c.CrisisServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 340 ms. Found 2 JPA repository interfaces.
+2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.project.CrisisGrid.crisis_service.repository.CrisisReportRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.project.CrisisGrid.crisis_service.user.UserRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2026-06-27 16:05:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-06-27 16:05:35 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-27 16:05:35 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-27 16:05:35 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-27 16:05:35 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7152 ms
+2026-06-27 16:05:36 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-27 16:05:36 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-27 16:05:36 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-27 16:05:37 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-27 16:05:37 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-27 16:05:37 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c13019c
+2026-06-27 16:05:37 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-27 16:05:37 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-27 16:05:38 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-27 16:05:39 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-27 16:05:39 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-27 16:05:40 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-27 16:05:41 [main] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-27 16:05:41 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-27 16:05:41 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-27 16:05:42 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-27 16:05:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-06-27 16:05:43 [main] INFO  c.p.C.c.CrisisServiceApplication - Started CrisisServiceApplication in 17.753 seconds (process running for 20.374)
+2026-06-27 16:08:11 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-27 16:08:11 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-27 16:08:11 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 37 ms
+2026-06-27 16:08:11 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-06-27 16:08:11 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-27 16:08:11 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-06-27 16:08:13 [http-nio-8081-exec-1] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-06-27 16:08:31 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-27 16:08:31 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-27 16:08:31 [http-nio-8081-exec-3] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
+2026-06-27 16:08:31 [http-nio-8081-exec-3] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 79e95467-6d5c-4530-bd75-d02910c8b2a8
+2026-06-27 16:08:32 [http-nio-8081-exec-3] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = crisis-service-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = snappy
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2026-06-27 16:08:32 [http-nio-8081-exec-3] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2026-06-27 16:08:33 [http-nio-8081-exec-3] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=crisis-service-producer-1] Instantiated an idempotent producer.
+2026-06-27 16:08:33 [http-nio-8081-exec-3] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.9.2
+2026-06-27 16:08:33 [http-nio-8081-exec-3] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 5e9866f43ab8e7e4
+2026-06-27 16:08:33 [http-nio-8081-exec-3] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1782556713249
+2026-06-27 16:08:34 [kafka-producer-network-thread | crisis-service-producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=crisis-service-producer-1] Cluster ID: flYAEDdURomUxrJigcLHgw
+2026-06-27 16:08:34 [http-nio-8081-exec-3] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 79e95467-6d5c-4530-bd75-d02910c8b2a8
+2026-06-27 16:08:35 [kafka-producer-network-thread | crisis-service-producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=crisis-service-producer-1] ProducerId set to 0 with epoch 0
+2026-06-27 16:27:36 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-27 16:27:37 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-27 16:27:38 [http-nio-8081-exec-6] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
+2026-06-27 16:27:38 [http-nio-8081-exec-6] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 73fa5e32-4873-439a-916e-d5ba8433b9a9
+2026-06-27 16:27:38 [http-nio-8081-exec-6] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 73fa5e32-4873-439a-916e-d5ba8433b9a9
+2026-06-27 16:28:40 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-27 16:28:41 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-27 16:28:41 [http-nio-8081-exec-9] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
+2026-06-27 16:28:41 [http-nio-8081-exec-9] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: d4c82dc7-dd17-4e63-bbdc-40d54cfb4b4c
+2026-06-27 16:28:41 [http-nio-8081-exec-9] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: d4c82dc7-dd17-4e63-bbdc-40d54cfb4b4c
+2026-06-27 16:33:19 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-27 16:33:19 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-27 16:33:19 [http-nio-8081-exec-2] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
+2026-06-27 16:33:19 [http-nio-8081-exec-2] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 2516ada4-e24e-4a18-b9b8-259d1b460988
+2026-06-27 16:33:19 [http-nio-8081-exec-2] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 2516ada4-e24e-4a18-b9b8-259d1b460988
+2026-06-27 17:19:01 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-27 17:19:01 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-27 17:19:01 [http-nio-8081-exec-4] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
+2026-06-27 17:19:01 [http-nio-8081-exec-4] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 4d701b60-2ef4-4359-93f9-dec39812196b
+2026-06-27 17:19:01 [http-nio-8081-exec-4] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 4d701b60-2ef4-4359-93f9-dec39812196b
+2026-06-27 17:23:37 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-27 17:23:39 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-27 17:23:40 [http-nio-8081-exec-8] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
+2026-06-27 17:23:40 [http-nio-8081-exec-8] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 041e57d8-b7c3-4c3b-9714-88169296f098
+2026-06-27 17:23:40 [http-nio-8081-exec-8] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 041e57d8-b7c3-4c3b-9714-88169296f098
+2026-06-27 17:31:29 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-27 17:31:30 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-27 17:31:30 [http-nio-8081-exec-1] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
+2026-06-27 17:31:30 [http-nio-8081-exec-1] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 63477bfe-3c12-421d-8aef-d0dc332529df
+2026-06-27 17:31:30 [http-nio-8081-exec-1] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 63477bfe-3c12-421d-8aef-d0dc332529df
+2026-06-27 18:00:20 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-27 18:00:20 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-27 18:00:20 [http-nio-8081-exec-5] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
+2026-06-27 18:00:20 [http-nio-8081-exec-5] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 805a6502-a6d7-453e-8ca3-c241954d887d
+2026-06-27 18:00:21 [http-nio-8081-exec-5] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 805a6502-a6d7-453e-8ca3-c241954d887d
+2026-06-27 18:14:16 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-06-27 18:14:16 [http-nio-8081-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-27 18:14:16 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-06-27 18:14:16 [http-nio-8081-exec-7] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user

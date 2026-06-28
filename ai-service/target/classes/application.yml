@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: ai-service
+
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+
+      chat:
+        options:
+          model: gpt-4o-mini
+          temperature: 0.3
+          max-tokens: 500
+
+  kafka:
+    bootstrap-servers: localhost:9092
+
+    consumer:
+      group-id: ai-service-group
+      auto-offset-reset: earliest
+
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+
+      properties:
+        spring.json.trusted.packages: "*"
+
+# External service URLs
+crisis-service:
+  url: http://localhost:8081
+
+resource-service:
+  url: http://localhost:8082
+
+server:
+  port: 8083
+
+logging:
+  level:
+    com.crisisgrid.aiservice: DEBUG
+    org.springframework.ai: DEBUG
