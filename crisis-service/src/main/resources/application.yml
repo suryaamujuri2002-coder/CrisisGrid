@@ -10,7 +10,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/crisisgrid
     username: postgres
-    password: Suryasurya#@123
+    password: xxxxxxxx
     driver-class-name: org.postgresql.Driver
     hikari:
       maximum-pool-size: 10
