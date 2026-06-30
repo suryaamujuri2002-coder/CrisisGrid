@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/crisisgrid
     username: postgres
-    password: xxxxxxxx
+    password: xxxxxxxxx
     driver-class-name: org.postgresql.Driver
 
   jpa:
