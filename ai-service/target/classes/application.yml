@@ -2,29 +2,43 @@ spring:
   application:
     name: ai-service
 
+  # Exclude DataSource / JPA auto-configuration (ai-service has no DB)
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
+      - org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+
 
   ai:
     openai:
-      api-key: ${OPENAI_API_KEY}
-
+      api-key: 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
+      base-url: https://api.groq.com/openai
       chat:
         options:
-          model: gpt-4o-mini
+          model: llama-3.3-70b-versatile   # or mixtral-8x7b-32768
           temperature: 0.3
           max-tokens: 500
 
   kafka:
     bootstrap-servers: localhost:9092
-
     consumer:
       group-id: ai-service-group
       auto-offset-reset: earliest
-
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
-
       properties:
         spring.json.trusted.packages: "*"
+
+# ─── FIX: Enable OkHttp for Feign ──────────────────────────────────────────
+# Java's built-in HttpURLConnection does not support the PATCH HTTP method.
+# Setting this to true tells Spring Cloud OpenFeign to use OkHttpClient
+# instead, which supports PATCH natively.
+# The feign-okhttp dependency must also be in pom.xml (already added).
+feign:
+  okhttp:
+    enabled: true
 
 # External service URLs
 crisis-service:
@@ -38,5 +52,5 @@ server:
 
 logging:
   level:
-    com.crisisgrid.aiservice: DEBUG
+    com.project.CrisisGrid.ai_service: DEBUG
     org.springframework.ai: DEBUG

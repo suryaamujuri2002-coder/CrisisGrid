@@ -20,6 +20,17 @@ public interface ResourceRepository extends JpaRepository<Resource, UUID> {
 
     List<Resource> findByAssignedCrisisId(UUID crisisId);
 
+    /**
+     * FIX — "ERROR: input is out of range" from PostgreSQL's acos().
+     *
+     * Floating-point arithmetic can produce dot-product values like
+     * 1.0000000000000002 when the search point matches a stored coordinate
+     * exactly. PostgreSQL's acos() rejects anything outside [-1.0, 1.0].
+     *
+     * Fix: wrap the dot-product in GREATEST(-1.0, LEAST(1.0, ...))
+     * in BOTH places the expression appears — the WHERE clause and
+     * the ORDER BY clause.
+     */
     @Query(value = """
         SELECT * FROM resource
         WHERE status = 'AVAILABLE'
@@ -28,20 +39,24 @@ public interface ResourceRepository extends JpaRepository<Resource, UUID> {
           AND current_longitude IS NOT NULL
           AND (
                 6371 * acos(
-                    cos(radians(:lat))
-                    * cos(radians(current_latitude))
-                    * cos(radians(current_longitude) - radians(:lng))
-                    + sin(radians(:lat))
-                    * sin(radians(current_latitude))
+                    GREATEST(-1.0, LEAST(1.0,
+                        cos(radians(:lat))
+                        * cos(radians(current_latitude))
+                        * cos(radians(current_longitude) - radians(:lng))
+                        + sin(radians(:lat))
+                        * sin(radians(current_latitude))
+                    ))
                 )
               ) <= :radiuskm
         ORDER BY (
                 6371 * acos(
-                    cos(radians(:lat))
-                    * cos(radians(current_latitude))
-                    * cos(radians(current_longitude) - radians(:lng))
-                    + sin(radians(:lat))
-                    * sin(radians(current_latitude))
+                    GREATEST(-1.0, LEAST(1.0,
+                        cos(radians(:lat))
+                        * cos(radians(current_latitude))
+                        * cos(radians(current_longitude) - radians(:lng))
+                        + sin(radians(:lat))
+                        * sin(radians(current_latitude))
+                    ))
                 )
         ) ASC
         """, nativeQuery = true)

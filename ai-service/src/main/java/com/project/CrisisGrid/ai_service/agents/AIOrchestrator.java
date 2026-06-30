@@ -7,6 +7,7 @@ import com.project.CrisisGrid.ai_service.dto.ResourceRecommendation;
 import com.project.CrisisGrid.ai_service.enums.CrisisType;
 import com.project.CrisisGrid.ai_service.feign.CrisisServiceClient;
 import com.project.CrisisGrid.ai_service.feign.ResourceServiceClient;
+import com.project.CrisisGrid.resource_service.dto.AllocationRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -225,33 +226,19 @@ public class AIOrchestrator {
 
         try {
 
-            List<String> resourceIds =
+            List<UUID> resourceIds =
                     recommendations.stream()
                             .limit(3)
-                            .map(r ->
-                                    r.getResourceId().toString())
+                            .map(ResourceRecommendation::getResourceId)
                             .toList();
 
-            Map<String, Object> allocationRequest =
-                    new HashMap<>();
+            AllocationRequest request = new AllocationRequest();
 
-            allocationRequest.put(
-                    "crisisId",
-                    crisisId.toString()
-            );
+            request.setCrisisId(crisisId);
+            request.setResourceIds(resourceIds);
+            request.setNotes("Auto-allocated by AI (high severity)");
 
-            allocationRequest.put(
-                    "resourceIds",
-                    resourceIds
-            );
-
-            allocationRequest.put(
-                    "notes",
-                    "Auto-allocated by AI (high severity)"
-            );
-
-            resourceServiceClient
-                    .allocateResources(allocationRequest);
+            resourceServiceClient.allocateResources(request);
 
         } catch (Exception e) {
 

@@ -1,27 +1,27 @@
-2026-06-27 16:05:27 [main] INFO  c.p.C.c.CrisisServiceApplication - Starting CrisisServiceApplication using Java 24.0.1 with PID 14760 (C:\Users\HP\OneDrive\Documents\CrisisGrid\crisis-service\target\classes started by HP in C:\Users\HP\OneDrive\Documents\CrisisGrid)
-2026-06-27 16:05:27 [main] INFO  c.p.C.c.CrisisServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 340 ms. Found 2 JPA repository interfaces.
-2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.project.CrisisGrid.crisis_service.repository.CrisisReportRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.project.CrisisGrid.crisis_service.user.UserRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-06-27 16:05:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
-2026-06-27 16:05:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
-2026-06-27 16:05:35 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2026-06-27 16:05:35 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.54]
-2026-06-27 16:05:35 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2026-06-27 16:05:35 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7152 ms
-2026-06-27 16:05:36 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-06-27 16:05:36 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.49.Final
-2026-06-27 16:05:36 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2026-06-27 16:05:37 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-06-27 16:05:37 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2026-06-27 16:05:37 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c13019c
-2026-06-27 16:05:37 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2026-06-27 16:05:37 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-06-27 16:05:38 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2026-06-28 12:32:09 [main] INFO  c.p.C.c.CrisisServiceApplication - Starting CrisisServiceApplication using Java 24.0.1 with PID 8732 (C:\Users\HP\OneDrive\Documents\CrisisGrid\crisis-service\target\classes started by HP in C:\Users\HP\OneDrive\Documents\CrisisGrid)
+2026-06-28 12:32:09 [main] INFO  c.p.C.c.CrisisServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-28 12:32:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-28 12:32:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-28 12:32:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 627 ms. Found 2 JPA repository interfaces.
+2026-06-28 12:32:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-28 12:32:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-28 12:32:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.project.CrisisGrid.crisis_service.repository.CrisisReportRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-28 12:32:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.project.CrisisGrid.crisis_service.user.UserRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-28 12:32:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2026-06-28 12:32:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-06-28 12:32:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-28 12:32:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-28 12:32:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-28 12:32:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6150 ms
+2026-06-28 12:32:17 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-28 12:32:17 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-28 12:32:17 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-28 12:32:18 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-28 12:32:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-28 12:32:19 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e55d844
+2026-06-28 12:32:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-28 12:32:19 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-28 12:32:19 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.5
@@ -29,27 +29,109 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-06-27 16:05:39 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-06-27 16:05:39 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-06-27 16:05:40 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-06-27 16:05:41 [main] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-06-27 16:05:41 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2026-06-27 16:05:41 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-06-27 16:05:42 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-2026-06-27 16:05:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
-2026-06-27 16:05:43 [main] INFO  c.p.C.c.CrisisServiceApplication - Started CrisisServiceApplication in 17.753 seconds (process running for 20.374)
-2026-06-27 16:08:11 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-27 16:08:11 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2026-06-27 16:08:11 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 37 ms
-2026-06-27 16:08:11 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
-2026-06-27 16:08:11 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
-2026-06-27 16:08:11 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
-2026-06-27 16:08:13 [http-nio-8081-exec-1] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
-2026-06-27 16:08:31 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
-2026-06-27 16:08:31 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
-2026-06-27 16:08:31 [http-nio-8081-exec-3] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
-2026-06-27 16:08:31 [http-nio-8081-exec-3] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 79e95467-6d5c-4530-bd75-d02910c8b2a8
-2026-06-27 16:08:32 [http-nio-8081-exec-3] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+2026-06-28 12:32:22 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-28 12:32:23 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 12:32:24 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-28 12:32:24 [main] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-28 12:32:24 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-28 12:32:25 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-28 12:32:26 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-28 12:32:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-06-28 12:32:28 [main] INFO  c.p.C.c.CrisisServiceApplication - Started CrisisServiceApplication in 20.226 seconds (process running for 21.749)
+2026-06-28 12:34:40 [http-nio-8081-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-28 12:34:40 [http-nio-8081-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-28 12:34:40 [http-nio-8081-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2026-06-28 12:34:40 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/auth/register
+2026-06-28 12:34:40 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 12:34:40 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured OPTIONS /api/v1/auth/register
+2026-06-28 14:10:24 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m2s320ms722µs500ns).
+2026-06-28 14:46:11 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-28 14:46:11 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-28 14:46:12 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 14:46:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-28 14:46:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-28 14:46:29 [main] INFO  c.p.C.c.CrisisServiceApplication - Starting CrisisServiceApplication using Java 24.0.1 with PID 23364 (C:\Users\HP\OneDrive\Documents\CrisisGrid\crisis-service\target\classes started by HP in C:\Users\HP\OneDrive\Documents\CrisisGrid)
+2026-06-28 14:46:29 [main] INFO  c.p.C.c.CrisisServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-28 14:46:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-28 14:46:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-28 14:46:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 681 ms. Found 2 JPA repository interfaces.
+2026-06-28 14:46:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-28 14:46:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-28 14:46:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.project.CrisisGrid.crisis_service.repository.CrisisReportRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-28 14:46:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.project.CrisisGrid.crisis_service.user.UserRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-28 14:46:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2026-06-28 14:46:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-06-28 14:46:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-28 14:46:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-28 14:46:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-28 14:46:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10055 ms
+2026-06-28 14:46:41 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-28 14:46:41 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-28 14:46:41 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-28 14:46:43 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-28 14:46:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-28 14:46:44 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@62f37bfd
+2026-06-28 14:46:44 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-28 14:46:44 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-28 14:46:44 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-28 14:46:49 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-28 14:46:49 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 14:46:52 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-28 14:46:53 [main] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-28 14:46:53 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-28 14:46:53 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-28 14:46:55 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-28 14:46:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-06-28 14:46:56 [main] INFO  c.p.C.c.CrisisServiceApplication - Started CrisisServiceApplication in 29.677 seconds (process running for 31.808)
+2026-06-28 14:47:09 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-28 14:47:09 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-28 14:47:09 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-06-28 14:47:09 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/auth/register
+2026-06-28 14:47:09 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/register
+2026-06-28 14:47:09 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 14:47:09 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/register
+2026-06-28 14:47:25 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/auth/login
+2026-06-28 14:47:25 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-06-28 14:47:25 [http-nio-8081-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 14:47:25 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-06-28 14:47:25 [http-nio-8081-exec-6] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-06-28 14:47:26 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/active?page=0&size=20
+2026-06-28 14:47:26 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 14:47:26 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 14:47:26 [http-nio-8081-exec-9] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-06-28 14:47:41 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 14:47:41 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 14:47:46 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 14:47:46 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 14:48:18 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 14:48:18 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:05:12 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:05:12 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:05:20 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:05:20 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:05:25 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:05:25 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:06:13 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:06:13 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:08:17 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/report
+2026-06-28 15:08:17 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-28 15:08:18 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-28 15:08:20 [http-nio-8081-exec-3] WARN  c.p.C.c.e.GlobalExceptionHandler - Validation failed: {latitude=Invalid latitude, longitude=Invalid longitude}
+2026-06-28 15:08:38 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-28 15:08:38 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-28 15:08:38 [http-nio-8081-exec-7] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: c028657f-b326-4c19-a255-372375c8bc02
+2026-06-28 15:08:38 [http-nio-8081-exec-7] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 106b7d52-a000-410c-8f50-27a1199f0dec
+2026-06-28 15:08:38 [http-nio-8081-exec-7] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
 	acks = -1
 	auto.include.jmx.reporter = true
 	batch.size = 16384
@@ -146,50 +228,1001 @@
 	transactional.id = null
 	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
 
-2026-06-27 16:08:32 [http-nio-8081-exec-3] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
-2026-06-27 16:08:33 [http-nio-8081-exec-3] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=crisis-service-producer-1] Instantiated an idempotent producer.
-2026-06-27 16:08:33 [http-nio-8081-exec-3] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.9.2
-2026-06-27 16:08:33 [http-nio-8081-exec-3] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 5e9866f43ab8e7e4
-2026-06-27 16:08:33 [http-nio-8081-exec-3] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1782556713249
-2026-06-27 16:08:34 [kafka-producer-network-thread | crisis-service-producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=crisis-service-producer-1] Cluster ID: flYAEDdURomUxrJigcLHgw
-2026-06-27 16:08:34 [http-nio-8081-exec-3] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 79e95467-6d5c-4530-bd75-d02910c8b2a8
-2026-06-27 16:08:35 [kafka-producer-network-thread | crisis-service-producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=crisis-service-producer-1] ProducerId set to 0 with epoch 0
-2026-06-27 16:27:36 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
-2026-06-27 16:27:37 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
-2026-06-27 16:27:38 [http-nio-8081-exec-6] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
-2026-06-27 16:27:38 [http-nio-8081-exec-6] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 73fa5e32-4873-439a-916e-d5ba8433b9a9
-2026-06-27 16:27:38 [http-nio-8081-exec-6] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 73fa5e32-4873-439a-916e-d5ba8433b9a9
-2026-06-27 16:28:40 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
-2026-06-27 16:28:41 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
-2026-06-27 16:28:41 [http-nio-8081-exec-9] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
-2026-06-27 16:28:41 [http-nio-8081-exec-9] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: d4c82dc7-dd17-4e63-bbdc-40d54cfb4b4c
-2026-06-27 16:28:41 [http-nio-8081-exec-9] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: d4c82dc7-dd17-4e63-bbdc-40d54cfb4b4c
-2026-06-27 16:33:19 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
-2026-06-27 16:33:19 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
-2026-06-27 16:33:19 [http-nio-8081-exec-2] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
-2026-06-27 16:33:19 [http-nio-8081-exec-2] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 2516ada4-e24e-4a18-b9b8-259d1b460988
-2026-06-27 16:33:19 [http-nio-8081-exec-2] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 2516ada4-e24e-4a18-b9b8-259d1b460988
-2026-06-27 17:19:01 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
-2026-06-27 17:19:01 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
-2026-06-27 17:19:01 [http-nio-8081-exec-4] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
-2026-06-27 17:19:01 [http-nio-8081-exec-4] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 4d701b60-2ef4-4359-93f9-dec39812196b
-2026-06-27 17:19:01 [http-nio-8081-exec-4] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 4d701b60-2ef4-4359-93f9-dec39812196b
-2026-06-27 17:23:37 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
-2026-06-27 17:23:39 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
-2026-06-27 17:23:40 [http-nio-8081-exec-8] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
-2026-06-27 17:23:40 [http-nio-8081-exec-8] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 041e57d8-b7c3-4c3b-9714-88169296f098
-2026-06-27 17:23:40 [http-nio-8081-exec-8] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 041e57d8-b7c3-4c3b-9714-88169296f098
-2026-06-27 17:31:29 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
-2026-06-27 17:31:30 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
-2026-06-27 17:31:30 [http-nio-8081-exec-1] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
-2026-06-27 17:31:30 [http-nio-8081-exec-1] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 63477bfe-3c12-421d-8aef-d0dc332529df
-2026-06-27 17:31:30 [http-nio-8081-exec-1] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 63477bfe-3c12-421d-8aef-d0dc332529df
-2026-06-27 18:00:20 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
-2026-06-27 18:00:20 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
-2026-06-27 18:00:20 [http-nio-8081-exec-5] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: 55538217-56a6-4c3c-bda2-7febd715086b
-2026-06-27 18:00:20 [http-nio-8081-exec-5] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 805a6502-a6d7-453e-8ca3-c241954d887d
-2026-06-27 18:00:21 [http-nio-8081-exec-5] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 805a6502-a6d7-453e-8ca3-c241954d887d
-2026-06-27 18:14:16 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
-2026-06-27 18:14:16 [http-nio-8081-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
-2026-06-27 18:14:16 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
-2026-06-27 18:14:16 [http-nio-8081-exec-7] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-06-28 15:08:38 [http-nio-8081-exec-7] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2026-06-28 15:08:40 [http-nio-8081-exec-7] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=crisis-service-producer-1] Instantiated an idempotent producer.
+2026-06-28 15:08:40 [http-nio-8081-exec-7] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.9.2
+2026-06-28 15:08:40 [http-nio-8081-exec-7] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 5e9866f43ab8e7e4
+2026-06-28 15:08:40 [http-nio-8081-exec-7] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1782639520630
+2026-06-28 15:08:41 [kafka-producer-network-thread | crisis-service-producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=crisis-service-producer-1] Cluster ID: flYAEDdURomUxrJigcLHgw
+2026-06-28 15:08:41 [http-nio-8081-exec-7] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 106b7d52-a000-410c-8f50-27a1199f0dec
+2026-06-28 15:08:42 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:08:42 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:08:42 [kafka-producer-network-thread | crisis-service-producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=crisis-service-producer-1] ProducerId set to 1000 with epoch 0
+2026-06-28 15:09:21 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:09:21 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:09:44 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/nearby?lat=12&lng=80&radiusKm=10
+2026-06-28 15:09:44 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/nearby?lat=12&lng=80&radiusKm=10
+2026-06-28 15:09:45 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/nearby?lat=12&lng=80&radiusKm=10
+2026-06-28 15:09:45 [http-nio-8081-exec-2] INFO  c.p.C.c.c.CrisisReportController - Fetching crises near lat=12.0, lng=80.0, radius=10.0km
+2026-06-28 15:09:48 [http-nio-8081-exec-2] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 22003
+2026-06-28 15:09:48 [http-nio-8081-exec-2] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: input is out of range
+2026-06-28 15:09:48 [http-nio-8081-exec-2] ERROR c.p.C.c.e.GlobalExceptionHandler - Unexpected error occurred
+org.springframework.dao.DataIntegrityViolationException: JDBC exception executing SQL [/* dynamic native SQL query */ SELECT *
+FROM crisis_report
+WHERE status IN ('PENDING', 'ACTIVE')
+AND (
+    6371 * acos(
+        cos(radians(?))
+        * cos(radians(latitude))
+        * cos(radians(longitude) - radians(?))
+        + sin(radians(?))
+        * sin(radians(latitude))
+    )
+) <= ?
+ORDER BY created_at DESC
+] [ERROR: input is out of range] [n/a]; SQL [n/a]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:297)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:256)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:560)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:343)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy141.findNearbyCrises(Unknown Source)
+	at com.project.CrisisGrid.crisis_service.service.impl.CrisisServiceImpl.getNearbyCrises(CrisisServiceImpl.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.project.CrisisGrid.crisis_service.service.impl.CrisisServiceImpl$$SpringCGLIB$$0.getNearbyCrises(<generated>)
+	at com.project.CrisisGrid.crisis_service.controller.CrisisReportController.getNearbyCrises(CrisisReportController.java:219)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:370)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at com.project.CrisisGrid.crisis_service.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:112)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: org.hibernate.exception.DataException: JDBC exception executing SQL [/* dynamic native SQL query */ SELECT *
+FROM crisis_report
+WHERE status IN ('PENDING', 'ACTIVE')
+AND (
+    6371 * acos(
+        cos(radians(?))
+        * cos(radians(latitude))
+        * cos(radians(longitude) - radians(?))
+        + sin(radians(?))
+        * sin(radians(latitude))
+    )
+) <= ?
+ORDER BY created_at DESC
+] [ERROR: input is out of range] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:103)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:269)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:172)
+	at org.hibernate.sql.results.jdbc.internal.AbstractResultSetAccess.getMetaData(AbstractResultSetAccess.java:36)
+	at org.hibernate.sql.results.jdbc.internal.AbstractResultSetAccess.getColumnCount(AbstractResultSetAccess.java:52)
+	at org.hibernate.query.results.ResultSetMappingImpl.resolve(ResultSetMappingImpl.java:194)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:340)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:142)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:132)
+	at org.hibernate.query.sql.internal.NativeSelectQueryPlanImpl.performList(NativeSelectQueryPlanImpl.java:135)
+	at org.hibernate.query.sql.internal.NativeQueryImpl.doList(NativeQueryImpl.java:697)
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143)
+	at org.hibernate.query.Query.getResultList(Query.java:120)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:132)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:95)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:160)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:148)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:170)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	... 124 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: input is out of range
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2875)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2560)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:429)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:526)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:436)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:139)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:251)
+	... 154 common frames omitted
+2026-06-28 15:57:22 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:57:22 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:57:22 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:57:50 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-28 15:57:50 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-28 15:57:51 [http-nio-8081-exec-6] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: c028657f-b326-4c19-a255-372375c8bc02
+2026-06-28 15:57:51 [http-nio-8081-exec-6] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 4cf09848-0fed-45f1-b8de-f8e34daa4fac
+2026-06-28 15:57:51 [http-nio-8081-exec-6] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 4cf09848-0fed-45f1-b8de-f8e34daa4fac
+2026-06-28 15:57:51 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:57:51 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 15:59:18 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/my-reports
+2026-06-28 15:59:19 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/my-reports
+2026-06-28 15:59:19 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/my-reports
+2026-06-28 16:15:56 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/my-reports
+2026-06-28 16:15:57 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/my-reports
+2026-06-28 16:16:38 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/report
+2026-06-28 16:16:38 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-28 16:16:38 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-28 16:16:38 [http-nio-8081-exec-2] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: c028657f-b326-4c19-a255-372375c8bc02
+2026-06-28 16:16:38 [http-nio-8081-exec-2] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 56cd1e08-811d-464c-ac86-9334014b3c16
+2026-06-28 16:16:38 [http-nio-8081-exec-2] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 56cd1e08-811d-464c-ac86-9334014b3c16
+2026-06-28 16:16:38 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 16:16:38 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 16:17:06 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 16:17:06 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 16:27:33 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 16:27:34 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 16:28:03 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-28 16:28:03 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-28 16:28:03 [http-nio-8081-exec-3] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: c028657f-b326-4c19-a255-372375c8bc02
+2026-06-28 16:28:03 [http-nio-8081-exec-3] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 13e65fa2-f65c-4950-8448-216340c491e6
+2026-06-28 16:28:03 [http-nio-8081-exec-3] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 13e65fa2-f65c-4950-8448-216340c491e6
+2026-06-28 16:28:03 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 16:28:03 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 16:28:11 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing PATCH /api/v1/crisis/13e65fa2-f65c-4950-8448-216340c491e6/ai-analysis
+2026-06-28 16:28:11 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 16:28:11 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured PATCH /api/v1/crisis/13e65fa2-f65c-4950-8448-216340c491e6/ai-analysis
+2026-06-28 16:28:11 [http-nio-8081-exec-4] ERROR c.p.C.c.e.GlobalExceptionHandler - Unexpected error occurred
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/crisis/13e65fa2-f65c-4950-8448-216340c491e6/ai-analysis.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:584)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:888)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:370)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at com.project.CrisisGrid.crisis_service.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+2026-06-28 16:28:45 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 16:28:46 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 16:36:35 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-28 16:36:35 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-28 16:36:35 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=crisis-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2026-06-28 16:36:36 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2026-06-28 16:36:36 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-06-28 16:36:36 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-06-28 16:36:36 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2026-06-28 16:36:36 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for crisis-service-producer-1 unregistered
+2026-06-28 16:36:36 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 16:36:36 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-28 16:36:36 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-28 16:36:54 [main] INFO  c.p.C.c.CrisisServiceApplication - Starting CrisisServiceApplication using Java 24.0.1 with PID 8496 (C:\Users\HP\OneDrive\Documents\CrisisGrid\crisis-service\target\classes started by HP in C:\Users\HP\OneDrive\Documents\CrisisGrid)
+2026-06-28 16:36:54 [main] INFO  c.p.C.c.CrisisServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-28 16:36:58 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-28 16:36:58 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-28 16:36:59 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 622 ms. Found 2 JPA repository interfaces.
+2026-06-28 16:36:59 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-28 16:36:59 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-28 16:36:59 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.project.CrisisGrid.crisis_service.repository.CrisisReportRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-28 16:36:59 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.project.CrisisGrid.crisis_service.user.UserRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-28 16:36:59 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2026-06-28 16:37:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-06-28 16:37:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-28 16:37:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-28 16:37:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-28 16:37:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7173 ms
+2026-06-28 16:37:04 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-28 16:37:04 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-28 16:37:04 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-28 16:37:05 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-28 16:37:05 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-28 16:37:06 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e12c5de
+2026-06-28 16:37:06 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-28 16:37:06 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-28 16:37:06 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-28 16:37:08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-28 16:37:08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 16:37:09 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-28 16:37:10 [main] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-28 16:37:10 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-28 16:37:10 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-28 16:37:11 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-28 16:37:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-06-28 16:37:12 [main] INFO  c.p.C.c.CrisisServiceApplication - Started CrisisServiceApplication in 20.032 seconds (process running for 22.025)
+2026-06-28 19:57:34 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h1m57s34ms534µs900ns).
+2026-06-28 20:49:11 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m34s809ms355µs900ns).
+2026-06-28 20:59:25 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-28 20:59:25 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-28 20:59:25 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 235 ms
+2026-06-28 20:59:26 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/active?page=0&size=20
+2026-06-28 20:59:26 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 20:59:31 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 20:59:34 [http-nio-8081-exec-1] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-06-28 20:59:35 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 20:59:35 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 21:02:38 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/report
+2026-06-28 21:02:38 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-28 21:02:38 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-28 21:02:40 [http-nio-8081-exec-7] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: c028657f-b326-4c19-a255-372375c8bc02
+2026-06-28 21:02:40 [http-nio-8081-exec-7] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: d7cd0f15-b055-458d-93c7-63343d84cdf8
+2026-06-28 21:02:40 [http-nio-8081-exec-7] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = crisis-service-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = snappy
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2026-06-28 21:02:40 [http-nio-8081-exec-7] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2026-06-28 21:02:41 [http-nio-8081-exec-7] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=crisis-service-producer-1] Instantiated an idempotent producer.
+2026-06-28 21:02:41 [http-nio-8081-exec-7] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.9.2
+2026-06-28 21:02:41 [http-nio-8081-exec-7] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 5e9866f43ab8e7e4
+2026-06-28 21:02:41 [http-nio-8081-exec-7] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1782660761668
+2026-06-28 21:02:42 [kafka-producer-network-thread | crisis-service-producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=crisis-service-producer-1] Cluster ID: flYAEDdURomUxrJigcLHgw
+2026-06-28 21:02:42 [kafka-producer-network-thread | crisis-service-producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=crisis-service-producer-1] ProducerId set to 1001 with epoch 0
+2026-06-28 21:02:43 [http-nio-8081-exec-7] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: d7cd0f15-b055-458d-93c7-63343d84cdf8
+2026-06-28 21:02:43 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 21:02:43 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 21:02:50 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing PATCH /api/v1/crisis/d7cd0f15-b055-458d-93c7-63343d84cdf8/ai-analysis
+2026-06-28 21:02:50 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 21:02:50 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured PATCH /api/v1/crisis/d7cd0f15-b055-458d-93c7-63343d84cdf8/ai-analysis
+2026-06-28 21:02:50 [http-nio-8081-exec-5] INFO  c.p.C.c.c.CrisisReportController - Received AI analysis update for crisis: d7cd0f15-b055-458d-93c7-63343d84cdf8
+2026-06-28 21:02:51 [http-nio-8081-exec-5] INFO  c.p.C.c.s.impl.CrisisServiceImpl - AI analysis saved for crisis d7cd0f15-b055-458d-93c7-63343d84cdf8 — severity=6, type=FLOOD, status=PENDING
+2026-06-28 21:03:13 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 21:03:13 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 21:03:19 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/my-reports
+2026-06-28 21:03:19 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/my-reports
+2026-06-28 21:03:19 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/my-reports
+2026-06-28 21:03:53 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/nearby?lat=12&lng=80&radiusKm=10
+2026-06-28 21:03:53 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/nearby?lat=12&lng=80&radiusKm=10
+2026-06-28 21:03:53 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/nearby?lat=12&lng=80&radiusKm=10
+2026-06-28 21:03:53 [http-nio-8081-exec-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 22003
+2026-06-28 21:03:53 [http-nio-8081-exec-3] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: input is out of range
+2026-06-28 21:03:53 [http-nio-8081-exec-3] ERROR c.p.C.c.e.GlobalExceptionHandler - Unexpected error occurred
+org.springframework.dao.DataIntegrityViolationException: JDBC exception executing SQL [/* dynamic native SQL query */ SELECT *
+FROM crisis_report
+WHERE status IN ('PENDING', 'ACTIVE')
+AND (
+    6371 * acos(
+        cos(radians(?))
+        * cos(radians(latitude))
+        * cos(radians(longitude) - radians(?))
+        + sin(radians(?))
+        * sin(radians(latitude))
+    )
+) <= ?
+ORDER BY created_at DESC
+] [ERROR: input is out of range] [n/a]; SQL [n/a]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:297)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:256)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:560)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:343)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy141.findNearbyCrises(Unknown Source)
+	at com.project.CrisisGrid.crisis_service.service.impl.CrisisServiceImpl.getNearbyCrises(CrisisServiceImpl.java:162)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.project.CrisisGrid.crisis_service.service.impl.CrisisServiceImpl$$SpringCGLIB$$0.getNearbyCrises(<generated>)
+	at com.project.CrisisGrid.crisis_service.controller.CrisisReportController.getNearbyCrises(CrisisReportController.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:370)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at com.project.CrisisGrid.crisis_service.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:112)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: org.hibernate.exception.DataException: JDBC exception executing SQL [/* dynamic native SQL query */ SELECT *
+FROM crisis_report
+WHERE status IN ('PENDING', 'ACTIVE')
+AND (
+    6371 * acos(
+        cos(radians(?))
+        * cos(radians(latitude))
+        * cos(radians(longitude) - radians(?))
+        + sin(radians(?))
+        * sin(radians(latitude))
+    )
+) <= ?
+ORDER BY created_at DESC
+] [ERROR: input is out of range] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:103)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:269)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:172)
+	at org.hibernate.sql.results.jdbc.internal.AbstractResultSetAccess.getMetaData(AbstractResultSetAccess.java:36)
+	at org.hibernate.sql.results.jdbc.internal.AbstractResultSetAccess.getColumnCount(AbstractResultSetAccess.java:52)
+	at org.hibernate.query.results.ResultSetMappingImpl.resolve(ResultSetMappingImpl.java:194)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:340)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:142)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:132)
+	at org.hibernate.query.sql.internal.NativeSelectQueryPlanImpl.performList(NativeSelectQueryPlanImpl.java:135)
+	at org.hibernate.query.sql.internal.NativeQueryImpl.doList(NativeQueryImpl.java:697)
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143)
+	at org.hibernate.query.Query.getResultList(Query.java:120)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:132)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:95)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:160)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:148)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:170)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	... 124 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: input is out of range
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2875)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2560)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:429)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:526)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:436)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:139)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:251)
+	... 154 common frames omitted
+2026-06-28 22:06:26 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m43s124ms972µs700ns).
+2026-06-28 22:09:29 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-28 22:09:29 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-28 22:09:30 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=crisis-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2026-06-28 22:09:30 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2026-06-28 22:09:30 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-06-28 22:09:30 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-06-28 22:09:30 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2026-06-28 22:09:30 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for crisis-service-producer-1 unregistered
+2026-06-28 22:09:30 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 22:09:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-28 22:09:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-28 22:09:49 [main] INFO  c.p.C.c.CrisisServiceApplication - Starting CrisisServiceApplication using Java 24.0.1 with PID 18308 (C:\Users\HP\OneDrive\Documents\CrisisGrid\crisis-service\target\classes started by HP in C:\Users\HP\OneDrive\Documents\CrisisGrid)
+2026-06-28 22:09:49 [main] INFO  c.p.C.c.CrisisServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-28 22:09:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-28 22:09:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-28 22:09:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 537 ms. Found 2 JPA repository interfaces.
+2026-06-28 22:09:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-28 22:09:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-28 22:09:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.project.CrisisGrid.crisis_service.repository.CrisisReportRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-28 22:09:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.project.CrisisGrid.crisis_service.user.UserRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-28 22:09:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 0 Redis repository interfaces.
+2026-06-28 22:09:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-06-28 22:09:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-28 22:09:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-28 22:09:59 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-28 22:09:59 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9348 ms
+2026-06-28 22:10:01 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-28 22:10:02 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-28 22:10:02 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-28 22:10:04 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-28 22:10:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-28 22:10:05 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42403dc6
+2026-06-28 22:10:05 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-28 22:10:05 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-28 22:10:05 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-28 22:10:10 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-28 22:10:11 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 22:10:13 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-28 22:10:13 [main] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-28 22:10:13 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-28 22:10:14 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-28 22:10:15 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-28 22:10:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-06-28 22:10:16 [main] INFO  c.p.C.c.CrisisServiceApplication - Started CrisisServiceApplication in 29.646 seconds (process running for 31.928)
+2026-06-28 22:11:03 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-28 22:11:03 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-28 22:11:03 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-06-28 22:11:03 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/nearby?lat=12&lng=80&radiusKm=10
+2026-06-28 22:11:03 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/nearby?lat=12&lng=80&radiusKm=10
+2026-06-28 22:11:04 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/nearby?lat=12&lng=80&radiusKm=10
+2026-06-28 22:12:17 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/report
+2026-06-28 22:12:17 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-28 22:12:17 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-28 22:12:17 [http-nio-8081-exec-5] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: c028657f-b326-4c19-a255-372375c8bc02
+2026-06-28 22:12:17 [http-nio-8081-exec-5] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 2e801065-b1ed-4950-b864-8bc0efa83c1a
+2026-06-28 22:12:18 [http-nio-8081-exec-5] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = crisis-service-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = snappy
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 10
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2026-06-28 22:12:18 [http-nio-8081-exec-5] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2026-06-28 22:12:18 [http-nio-8081-exec-5] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=crisis-service-producer-1] Instantiated an idempotent producer.
+2026-06-28 22:12:18 [http-nio-8081-exec-5] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.9.2
+2026-06-28 22:12:18 [http-nio-8081-exec-5] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 5e9866f43ab8e7e4
+2026-06-28 22:12:18 [http-nio-8081-exec-5] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1782664938897
+2026-06-28 22:12:19 [kafka-producer-network-thread | crisis-service-producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=crisis-service-producer-1] Cluster ID: flYAEDdURomUxrJigcLHgw
+2026-06-28 22:12:19 [kafka-producer-network-thread | crisis-service-producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=crisis-service-producer-1] ProducerId set to 1002 with epoch 0
+2026-06-28 22:12:19 [http-nio-8081-exec-5] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 2e801065-b1ed-4950-b864-8bc0efa83c1a
+2026-06-28 22:12:20 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/active?page=0&size=20
+2026-06-28 22:12:20 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 22:12:20 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 22:12:20 [http-nio-8081-exec-7] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-06-28 22:12:22 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/my-reports
+2026-06-28 22:12:22 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/my-reports
+2026-06-28 22:12:22 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/my-reports
+2026-06-28 22:12:22 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing PATCH /api/v1/crisis/2e801065-b1ed-4950-b864-8bc0efa83c1a/ai-analysis
+2026-06-28 22:12:22 [http-nio-8081-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 22:12:22 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured PATCH /api/v1/crisis/2e801065-b1ed-4950-b864-8bc0efa83c1a/ai-analysis
+2026-06-28 22:12:22 [http-nio-8081-exec-10] INFO  c.p.C.c.c.CrisisReportController - Received AI analysis update for crisis: 2e801065-b1ed-4950-b864-8bc0efa83c1a
+2026-06-28 22:12:22 [http-nio-8081-exec-10] INFO  c.p.C.c.s.impl.CrisisServiceImpl - AI analysis saved for crisis 2e801065-b1ed-4950-b864-8bc0efa83c1a — severity=6, type=ACCIDENT, status=PENDING
+2026-06-28 22:12:46 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/my-reports
+2026-06-28 22:12:46 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/my-reports
+2026-06-28 22:13:00 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/nearby?lat=16&lng=80&radiusKm=10
+2026-06-28 22:13:00 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/nearby?lat=16&lng=80&radiusKm=10
+2026-06-28 22:13:00 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/nearby?lat=16&lng=80&radiusKm=10
+2026-06-28 22:13:09 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/crisis/nearby?lat=16&lng=81&radiusKm=10
+2026-06-28 22:13:09 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/nearby?lat=16&lng=81&radiusKm=10
+2026-06-28 22:13:09 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/nearby?lat=16&lng=81&radiusKm=10
+2026-06-28 22:15:06 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 22:15:06 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 22:16:07 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 22:16:07 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 22:17:15 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/auth/login
+2026-06-28 22:17:15 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-06-28 22:17:15 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 22:17:15 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-06-28 22:17:15 [http-nio-8081-exec-3] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-06-28 22:17:15 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 22:17:16 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 22:18:14 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/crisis/report
+2026-06-28 22:18:14 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/crisis/report
+2026-06-28 22:18:14 [http-nio-8081-exec-5] INFO  c.p.C.c.c.CrisisReportController - Crisis report submitted by user: c028657f-b326-4c19-a255-372375c8bc02
+2026-06-28 22:18:14 [http-nio-8081-exec-5] INFO  c.p.C.c.s.impl.CrisisServiceImpl - Crisis saved with id: 5ada3d65-118f-4e8a-8115-90c4bc6f0b41
+2026-06-28 22:18:15 [http-nio-8081-exec-5] INFO  c.p.C.c.kafka.CrisisEventProducer - Published crisis.created event for crisisId: 5ada3d65-118f-4e8a-8115-90c4bc6f0b41
+2026-06-28 22:18:15 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 22:18:15 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/active?page=0&size=20
+2026-06-28 22:18:17 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing PATCH /api/v1/crisis/5ada3d65-118f-4e8a-8115-90c4bc6f0b41/ai-analysis
+2026-06-28 22:18:17 [http-nio-8081-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 22:18:17 [http-nio-8081-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured PATCH /api/v1/crisis/5ada3d65-118f-4e8a-8115-90c4bc6f0b41/ai-analysis
+2026-06-28 22:18:17 [http-nio-8081-exec-7] INFO  c.p.C.c.c.CrisisReportController - Received AI analysis update for crisis: 5ada3d65-118f-4e8a-8115-90c4bc6f0b41
+2026-06-28 22:18:17 [http-nio-8081-exec-7] INFO  c.p.C.c.s.impl.CrisisServiceImpl - AI analysis saved for crisis 5ada3d65-118f-4e8a-8115-90c4bc6f0b41 — severity=4, type=FLOOD, status=PENDING
+2026-06-28 22:18:20 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/my-reports
+2026-06-28 22:18:20 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/my-reports
+2026-06-28 22:19:18 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/my-reports
+2026-06-28 22:19:18 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/my-reports
+2026-06-28 22:19:31 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/crisis/nearby?lat=12&lng=80&radiusKm=10
+2026-06-28 22:19:31 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/crisis/nearby?lat=12&lng=80&radiusKm=10
+2026-06-28 23:41:25 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m17s246ms214µs).
+2026-06-28 23:42:02 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-28 23:42:02 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-28 23:42:02 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=crisis-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2026-06-28 23:42:02 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2026-06-28 23:42:02 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-06-28 23:42:02 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-06-28 23:42:02 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2026-06-28 23:42:02 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for crisis-service-producer-1 unregistered
+2026-06-28 23:42:02 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 23:42:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-28 23:42:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

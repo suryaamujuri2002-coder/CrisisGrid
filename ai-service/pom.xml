@@ -31,36 +31,26 @@
     </properties>
     <dependencies>
 
-       <!-- <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency> -->
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!--
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
-        </dependency> -->
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
-        <!-- Source: https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-redis -->
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
@@ -72,7 +62,6 @@
             <artifactId>jackson-datatype-jsr310</artifactId>
         </dependency>
 
-        <!-- Source: https://mvnrepository.com/artifact/org.openidentityplatform.commons/json-web-token -->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-api</artifactId>
@@ -97,24 +86,25 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
         </dependency>
 
-
-        <!-- Spring AI -->
         <!-- Spring AI OpenAI -->
         <dependency>
             <groupId>org.springframework.ai</groupId>
@@ -125,6 +115,33 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <!--
+            FIX — PATCH support for Feign.
+
+            Java's built-in HttpURLConnection (Feign's default HTTP client)
+            does NOT support the PATCH method. When Feign tries to call
+            PATCH /api/v1/crisis/{id}/ai-analysis it throws:
+
+              "Invalid HTTP method: PATCH"
+
+            Solution: add OkHttp to the classpath. Spring Cloud OpenFeign
+            auto-detects it and switches to OkHttpClient, which supports
+            PATCH natively.  No other code changes are needed.
+
+            feign.okhttp.enabled=true in application.yml activates it
+            (already set in the fixed application.yml).
+        -->
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-okhttp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.project.CrisisGrid</groupId>
+            <artifactId>resource-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>

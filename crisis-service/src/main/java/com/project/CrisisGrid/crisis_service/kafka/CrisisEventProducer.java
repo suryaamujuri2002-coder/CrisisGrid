@@ -25,14 +25,15 @@ public class CrisisEventProducer {
     private static final String CRISIS_RESOLVED_TOPIC = "crisis.resolved";
 
     public void publishCrisisCreatedEvent(
-            UUID crisisId,
-            String title,
-            String description) {
+            UUID crisisId, String title, String description,
+            Double latitude, Double longitude) {
 
         Map<String, Object> event = Map.of(
                 "crisisId", crisisId.toString(),
                 "title", title,
-                "description", description
+                "description", description,
+                "latitude", latitude,       // ✅ add
+                "longitude", longitude      // ✅ add
         );
 
         kafkaTemplate.send(

@@ -2,6 +2,8 @@ package com.project.CrisisGrid.ai_service.feign;
 
 
 import com.project.CrisisGrid.ai_service.dto.ResourceDTO;
+
+import com.project.CrisisGrid.resource_service.dto.AllocationRequest;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,8 +20,6 @@ public interface ResourceServiceClient {
     );
 
     @PostMapping("/api/v1/resources/allocate")
-    void allocateResources(
-            @RequestBody Map<String, Object> allocationRequest
-    );
+    void allocateResources(@RequestBody AllocationRequest allocationRequest);
 
 }

@@ -1,7 +1,5 @@
 package com.project.CrisisGrid.crisis_service.config;
 
-
-
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.producer.ProducerConfig;
 
@@ -169,9 +167,23 @@ public class KafkaConfig {
                 JsonDeserializer.class.getName()
         );
 
+        // BUG 3 FIX — was `false` (manual commit) but no consumer ever
+        // called ack.acknowledge(), so Kafka never received a commit and
+        // kept redelivering the same messages forever.
+        // Switching to true lets Kafka auto-commit after each poll,
+        // which matches the fact that none of the @KafkaListener methods
+        // take an Acknowledgment parameter.
         configProps.put(
                 ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG,
-                false
+                true
+        );
+
+        // Auto-commit interval — commit every second (default is 5 s).
+        // Keeps the committed offset close to the processed offset so
+        // a restart doesn't re-process too many messages.
+        configProps.put(
+                ConsumerConfig.AUTO_COMMIT_INTERVAL_MS_CONFIG,
+                1000
         );
 
         configProps.put(
@@ -207,6 +219,17 @@ public class KafkaConfig {
 
     /**
      * Kafka Listener Container Factory
+     *
+     * BUG 3 FIX — AckMode was MANUAL_IMMEDIATE, which requires every
+     * @KafkaListener method to accept an Acknowledgment parameter and
+     * explicitly call ack.acknowledge(). None of the listeners in this
+     * project do that, so offsets were never committed and every message
+     * was redelivered on restart.
+     *
+     * Changed to BATCH, which works correctly with auto-commit enabled
+     * above. Spring will commit the offset automatically after each
+     * poll batch is fully processed, with no changes needed in any
+     * listener method.
      */
     @Bean
     public ConcurrentKafkaListenerContainerFactory<String, Object>
@@ -224,9 +247,10 @@ public class KafkaConfig {
 
         factory.setBatchListener(false);
 
+        // FIXED: was ContainerProperties.AckMode.MANUAL_IMMEDIATE
         factory.getContainerProperties()
                 .setAckMode(
-                        ContainerProperties.AckMode.MANUAL_IMMEDIATE
+                        ContainerProperties.AckMode.BATCH
                 );
 
         return factory;
