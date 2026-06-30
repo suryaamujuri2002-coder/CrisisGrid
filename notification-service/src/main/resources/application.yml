@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/crisisgrid
     username: postgres
-    password: Suryasurya#@123
+    password: xxxxxxxx
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -32,7 +32,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: suryaamujuri2002@gmail.com
-    password: spiiwifyyhvpshdm
+    password: xxxxxxxx
 
     properties:
       mail:
@@ -46,9 +46,9 @@ server:
 
 # Twilio
 twilio:
-  account-sid: AC8beb20dca32e3cc0c09b97b90f7a6a58
-  auth-token: 3c35273b0aedadde69c9f55d914c8594
-  phone-number: 9121782600
+  account-sid: xxxxxxxx
+  auth-token: xxxxxxxx
+  phone-number: xxxxxxxx
 
 # Notification defaults
 notification:
