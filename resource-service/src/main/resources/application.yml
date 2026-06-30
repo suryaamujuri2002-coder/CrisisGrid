@@ -7,7 +7,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/crisisgrid
     username: postgres
-    password: Suryasurya#@123
+    password: xxxxxxxxx
   jpa:
     hibernate:
       ddl-auto: update
